@@ -1,0 +1,3 @@
+Select emp.empno, emp.ename, emp.deptno,dept.deptno,dept.loc
+From emp,dept
+Where emp.deptno=dept.deptno;
